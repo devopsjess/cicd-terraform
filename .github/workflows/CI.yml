@@ -36,5 +36,9 @@ jobs:
    - name: Terraform Plan
      run: terraform plan
 
+#terraform validate
+   - name: Terraform Validate
+     run: terraform validate -no-color
+     
 #aws configure
 
