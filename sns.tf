@@ -1,9 +1,9 @@
 resource "aws_sns_topic" "snstopic" {
-name = "sns-demo-topic"
-display_name = "sns-demo-topic"
-tags = {
-"Name" = "sns-demo-topic-alerts"
-}
+  name         = "sns-demo-topic"
+  display_name = "sns-demo-topic"
+  tags = {
+    "Name" = "sns-demo-topic-alerts"
+  }
 
 }
 
