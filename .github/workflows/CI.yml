@@ -9,8 +9,8 @@ on:
    - main
 
 #declare the running agent
- jobs: 
-  terraform-ci:
+jobs: 
+ terraform-ci:
    runs-on: ubuntu-latest
 
   steps:
