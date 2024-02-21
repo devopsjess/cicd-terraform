@@ -44,3 +44,10 @@ jobs:
 #terraform apply
    - name: Initialize terraform
      run: terraform apply --auto-approve -var-file="environments/${{ github.event.inputs.environment }}.tfvars"
+
+# Wait 10 minutes
+- name : wait for 10min
+  run: sleep 600
+
+- name : terraform destroy
+  run: terraform destroy

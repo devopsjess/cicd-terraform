@@ -1,5 +1,5 @@
-variable abc{
-  type        = string 
+variable "abc" {
+  type        = string
   default     = "wutyee-c-update-topic"
-  description = "this is a type" 
+  description = "this is a type"
 }
