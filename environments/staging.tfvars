@@ -1,4 +1,4 @@
-env = "dev"
+env = "stg"
 key_name = "wutyee"
 vpc_id = "vpc-07383efcd62624e8f"
 sg_name = "wutyee-allow-http-https-ssh"
