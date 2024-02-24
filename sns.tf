@@ -1,6 +1,6 @@
 # add this
 locals {
-  topic-name = "wutyee-updates-topic"
+  topic-name = "updates-topic-dev"
 }
 
 #new sns topic
