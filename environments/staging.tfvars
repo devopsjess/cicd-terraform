@@ -1,7 +1,7 @@
 env = "stg"
 key_name = "wutyee"
 vpc_id = "vpc-07383efcd62624e8f"
-sg_name = "wutyee-allow-http-https-ssh"
+sg_name = "wutyee-allow-http-https-ssh-stg"
 ami_id = "ami-0e731c8a588258d0d"
 instance_type = "t2.micro"
 subnet_id = "subnet-0e5c1e5f25a775b10"
