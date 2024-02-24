@@ -1,7 +1,7 @@
 # add this, then move it to variables.tf
 variable "env" {
   type        = string
-  default     = "wutyee-c-update-topic"
+  default     = "update-dev"
   description = "this is a type"
 }
 
